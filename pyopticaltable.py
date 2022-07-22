@@ -940,7 +940,7 @@ class OpticalTable:
             Instance of the OpticalElement class for this optic.
 
         """
-        self.set_label(self.ax, x, y, label, label_pos,
+        self.set_label(self.ax, x, y, 0, label, label_pos,
                        labelpad, textcolour, fontsize=fontsize)
         return OpticalElement(x, y, 't', None, 'point_source')
 
